@@ -1,0 +1,115 @@
+@import "../standard.css";
+
+.flexi{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.flexi2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.topmenu-left{
+    margin-right: auto;
+    
+}
+
+.socialmedia{
+    list-style: none;
+}
+
+.socialmedia li{
+    display: inline-block;
+    padding: 0rem 0.5rem;
+}
+
+.socialmedia li a{
+    transition: all 0.3s ease 0s;
+    fill:#2BAAEC;
+
+}
+
+.socialmedia li a:hover{
+    fill: #25E6C8;
+}
+
+.navbar{
+    font-size: 24px;
+    text-decoration: none;
+    padding: 2rem 0rem;
+
+}
+
+.navbar li{
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+    color:black;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: #25E6C8;
+}
+.logo{
+    margin-right: auto;
+}
+
+.picture1{
+    padding-right: 5rem;
+}
+
+@media screen and (max-width:1140px) {
+.picture1 {
+    display: none;
+}
+    .textbox1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5rem 0.5rem;
+        
+    
+}
+
+    
+}
+
+.button {
+    background-color: #25E6C8;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    transition: all 0.3s ease 0s;
+  }
+  .button:hover{
+    background-color:#2BAAEC ;
+  }
+
+  .textbox2{
+      margin-right: 20rem;
+  }
+
+  .picture2{
+    ;
+  }
+
+  .cliniccolor{
+      color: #2BAAEC;
+      display: inline-block;
+  }
