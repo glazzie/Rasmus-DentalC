@@ -3,26 +3,22 @@
     padding: 0;
     margin: 0;
     font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 html, body{
     padding-top: 1rem;
 }
 
-footer{
-    background-color: #2BAAEC;
-    text-align: center;
-    padding-top: 1rem;
-    height: 3rem;
-}
-
 h1,h2,h3,h4,h5,h6{
     font-weight: 3000;
+    font-family: 'Roboto Slab', serif;
 }
 
 p{
     font-size: 18px;
-    padding: 2rem 0px;
+    padding: 1rem 0px;
 }
 
 h1{
@@ -31,11 +27,22 @@ h1{
 
 h2{
     font-size: 40px;
+    padding: 2rem 0rem;
+}
+
+h3{
+    font-size: 40px;
+    border-bottom: solid 3px #25E6C8;
 }
 
 
 .border{
     border-top: 1px solid #707070
+}
+
+.boarder{
+
+    border: solid 3px black;
 }
 
 .container {

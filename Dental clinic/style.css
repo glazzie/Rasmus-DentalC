@@ -2,7 +2,6 @@
 
 .flexi{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     padding: 1rem 0rem;
 }
@@ -67,23 +66,6 @@
     padding-right: 5rem;
 }
 
-@media screen and (max-width:1140px) {
-.picture1 {
-    display: none;
-}
-    .textbox1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 0.5rem 0.5rem;
-        
-    
-}
-
-    
-}
-
 .button {
     background-color: #25E6C8;
     border: none;
@@ -102,14 +84,227 @@
   }
 
   .textbox2{
-      margin-right: 20rem;
+      margin-right: 10rem;
   }
 
-  .picture2{
-    ;
+  .textbox2 h2{   
+    border-bottom: solid 3px #2BAAEC;
+}
+
+  .textbox3{
+      display: flex;
+      list-style: none;
+      justify-content: flex-start;
+      flex-wrap: wrap;
   }
+  .textbox3 li{
+      font-size: 40px;
+      color: #2BAAEC;
+      padding-right: 4rem;
+  }
+  .textbox3 li p{
+    color: black;
+}
 
   .cliniccolor{
       color: #2BAAEC;
       display: inline-block;
+      
   }
+
+  .service{
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+  }
+
+  .flex-column{
+      flex-direction: column;
+  }
+
+  .isgood{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    
+  }
+
+  .block{
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .fonti{
+      font-size: 22px;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+      margin: 0;
+      
+  }
+
+  .fint{
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .menublock{
+      width: 350px;
+      padding: 30px;
+      text-align: center;
+  }
+
+  .block1{
+      padding-top: 50px;
+  }
+
+  .circlelink{
+    transition: all 0.3s ease 0s;
+    fill: #25E6C8;
+  }
+
+  .circlelink:hover{
+    fill: #2BAAEC;
+}
+.footer1{
+    background-color: #2BAAEC;
+    height: 220px;
+    margin-top: 2rem;
+    opacity: 80%;
+    color: #DEDEDE;
+}
+
+.footer2{
+    background-color: #2BAAEC ;
+    height: 81px;
+    justify-content: center;
+    align-content: center;
+    color: #DEDEDE;
+    font-size: 16px;
+}
+
+.f1{
+    justify-content: space-between;
+    padding-top: 81px;
+    
+}
+
+.f1 p {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.button2{
+
+        background-color:#DEDEDE;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+        color:#2BAAEC;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        border-radius: 12px;
+        transition: all 0.3s ease 0s;
+}
+
+.button2:hover{
+    background-color:#00a1f8;
+    color: #DEDEDE;
+}
+
+.test{
+    opacity: 0%;
+}
+
+
+
+@media screen and (max-width:1140px) {
+    .picture1{
+        display: none;
+    }
+        .textbox1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0.5rem 0.5rem;
+            flex-wrap: wrap;
+            text-align: center;  
+    }
+    .navbar :not(:first-child){
+        display: none;
+    }
+
+    .isgood{
+        flex-direction: row;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        height: 0;
+        width: auto;
+        
+      }
+
+      .textbox2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+
+    }
+    .textbox3{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .textbox3 li{
+        font-size: 40px;
+        color: #2BAAEC;
+        
+    }
+
+    .test{
+        opacity: 100%;
+        margin-right: 2rem;
+        transition: all 0.3s ease 0s;
+    }
+
+    .test:hover{
+        color: #25E6C8;
+    }
+
+    .footer1{
+        margin-top: 50rem;
+        
+    }
+    @media screen and (max-width:1066px) {
+        .footer1{
+            margin-top: 70rem;
+            
+        }
+
+        @media screen and (max-width:716px) {
+            .footer1{
+                margin-top: 140rem;
+                
+            }
+        }
+    }
+}
+
