@@ -246,7 +246,6 @@
 
     .isgood{
         flex-direction: row;
-        flex-wrap: ;
         justify-content: center;
         align-items: center;
         height: 0;
